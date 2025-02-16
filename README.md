@@ -48,6 +48,14 @@ autogen-examples v0.1.0
 cd 01-hello-world
 ```
 
+5. If you are using OpenAI or Azure, please create a `.env` file at the root of your project and put your API there.
+
+## Use cases and Examples
+
+- [01-hello-world](/01-hello-world/): A simple to test to make sure you have the dependencies and your environment is working properly.
+- [02-weather-checker](/02-weather-checker/): A demo showing how to use function calling to get real-time weather data by integrating with a weather API. It simulates the usage of a `tool` or `function`
+- [03-ollama-llm-models](/03-ollama-llm-models/): A demonstration of using local LLM models with Ollama, showing how to integrate and interact with open source models running on your local machine.
+
 ## Troubleshooting
 
 If you encounter any issues:
